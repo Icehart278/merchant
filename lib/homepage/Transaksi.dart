@@ -1,11 +1,11 @@
-// import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class Transaksi extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Stack(
+       return ListView( 
+         children: <Widget>[
+       Stack(
         children: <Widget>[
         Container(
           color: Colors.white,
@@ -95,7 +95,65 @@ class Transaksi extends StatelessWidget {
       ),
         ),
       ],
-    );
+    ),
+    Container(child: Row(
+      children: <Widget>[ Column( mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[ 
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+        Text('data'),
+      
+        ],
+      ),
+        
+      ],
+    ),)
+      ],
+      );
   }
 }
-

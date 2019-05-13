@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:merchant/homepage/Transaksi.dart';
+import 'package:merchant/Laporan.dart';
 
 class CustomTabBar extends StatelessWidget {
   @override
@@ -38,7 +39,7 @@ class CustomTabBar extends StatelessWidget {
           body: TabBarView(
             children: [
               Transaksi(),
-              Icon(Icons.directions_transit),
+              Laporan(),
               Icon(Icons.directions_bike),
               Icon(Icons.directions_bike),
             ],
