@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:merchant/homepage/Notifikasi.dart';
+import 'package:merchant/homepage/Profil.dart';
 import 'package:merchant/homepage/Transaksi.dart';
 import 'package:merchant/Laporan.dart';
 
@@ -40,8 +42,8 @@ class CustomTabBar extends StatelessWidget {
             children: [
               Transaksi(),
               Laporan(),
-              Icon(Icons.directions_bike),
-              Icon(Icons.directions_bike),
+              Profil(),
+              Notifikasi(),
             ],
           ),
         ),
